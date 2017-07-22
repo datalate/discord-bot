@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "A chat bot for Discord",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.2.1",
+    "typescript": "^2.4.2"
+  }
+}
